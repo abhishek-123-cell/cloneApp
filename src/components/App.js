@@ -1,15 +1,17 @@
 // import './App.css';
 import React,{Component} from 'react';
-import {SignIn} from './';
-import {Switch,Route} from 'react-router-dom'
+import {SignIn,Slack} from './';
+import {Switch,Route} from 'react-router-dom';
+// import { Switch, Route } from "react-router-dom";
+
 function Home(){
   return(
     <div>Home</div>
   )
 }
-function Some() {
+function some() {
   return(
-  <div>Some</div>
+   <div>Some</div>
   )
 }
 
@@ -24,7 +26,7 @@ export default class App extends Component {
         <Switch>
           <Route exact path="/" component={SignIn} />
           <Route exact path="/home" component={Home} />
-          <Route exact path="/some" component={Some} />
+          <Route exact path="/main" component={Slack} />
         </Switch>
       </div>
     );
