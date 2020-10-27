@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.sign-form{
+text-align: center;
+    font-size: 12px;
+    color: cadetblue;
+    text-decoration: dotted;
+    border-bottom: none;
+  }
+  .sign-form button{
+    color: darkorange;
+    font-size: 15px;
+    border-radius: 12px;
+  }
