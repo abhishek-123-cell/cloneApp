@@ -19,6 +19,6 @@ export const signInWithGoogle=()=>{
          const googleProvider=new firebase.auth.GoogleAuthProvider()
          auth.signInWithPopup(googleProvider);
 }
-export function createOrGetUserProfileDocument() {
-  
-}
+// export const createOrGetUserProfileDocument=(user) {
+
+// }
