@@ -1,14 +1,7 @@
-import App from './App';
-import SignIn from'./SignIn';
+import App from "./App";
+import SignIn from "./SignIn";
+import Sidebar from "./Sidebar";
+import Slack from "./Slack";
 import MainContainer from "./MainContainer";
 
-import Slack from "./Slack";
-import Sidebar from "./Sidebar";
-
-export {
-         App,
-         SignIn,
-         Sidebar,
-         Slack,
-         MainContainer
-}
+export { App, SignIn, Sidebar, Slack, MainContainer };
